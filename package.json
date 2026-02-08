@@ -1,0 +1,17 @@
+{
+  "name": "claude-code-excellence",
+  "version": "1.0.0",
+  "description": "A monorepo for web and video apps with Claude Code.",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "skills/*",
+    "templates/*"
+  ],
+  "scripts": {
+    "start:web-basic": "node apps/web-basic/server.js",
+    "start:remotion-app": "node apps/remotion-app/server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
